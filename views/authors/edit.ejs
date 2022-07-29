@@ -1,5 +1,5 @@
 <h2 class="page-header">Edit Author</h2>
-<form action="/authors/<%= author.id %>?_method=PUT" method="post">
+<form action="/authors/<%= author.id %>?_method=PUT" method="post" autocomplete="off">
     <%- include('./_form_fields.ejs') %>
         <div class="form-row form-row-end btn-row">
             <a class="btn btn-danger" href="/authors/<%= author.id %>">Cancel</a>
